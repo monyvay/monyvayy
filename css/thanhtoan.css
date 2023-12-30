@@ -1,0 +1,215 @@
+.main-page {
+    background: radial-gradient(35.95% 86.4% at 57.46% 98.82%, #4CB962 0%, #72BF44 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-page__view {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(38, 43, 82, 0.05);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 25px;
+    min-width: 800px;
+    min-height: 400px;
+}
+.pay-new .pay-new__container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option.selected {
+    border: 1px solid #009486;
+    box-shadow: 4px 8px 15px rgba(21, 48, 88, 0.101961);
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    margin: 3.5px 0;
+    background: #FFFFFF;
+    box-shadow: 4px 8px 15px rgba(21, 48, 88, 0.101961);
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option.selected .pay-option__text {
+    color: #009486;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option .pay-option__text {
+    width: 60%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+     /* CSS để xóa border của button */
+ button {
+     border: none; /* Xóa viền */
+     outline: none; /* Xóa đường viền khi button được focus (nếu cần) */
+ }
+
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    margin: 3.5px 0;
+    background: #FFFFFF;
+    box-shadow: 4px 8px 15px rgba(21, 48, 88, 0.101961);
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-display {
+    width: 60%;
+    background: #FFFFFF;
+    box-shadow: 4px 8px 15px rgba(21, 48, 88, 0.101961);
+    padding: 9px 16px;
+    border-radius: 12px;
+    margin-left: 30px;
+
+}
+
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-display .cm-info {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 12px;
+    background: rgba(0, 189, 180, 0.1);
+    mix-blend-mode: normal;
+    border-radius: 4px;
+    width: 96%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #00BDB4;
+    margin-bottom: 10px;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-display .pay-table .pay-table__unit .pay-table__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    color: #000000;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-display .pay-table .pay-table__unit .pay-table__info-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-display .pay-display__normal-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 15px;
+    color: #747983;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__menu .pay-option.selected .pay-option__arrow {
+    background-image: url(/images/arrow-right.png);
+}
+.pay-new a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #EE4915;
+}
+/* breadcrumb */
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    font-size: 11px;
+    color: #000;
+    margin: 30px 0 15px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #000;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.breadcrumb > li + li::before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/";
+}
+.breadcrumbs__section{
+    width: 100%;
+    max-width: 747px;
+    margin: 0 auto;
+}
+@media (max-width:769px) {
+    .breadcrumbs__section{
+        margin-left: 3%;
+    }
+}
+/* end breadcrumb */
+/* Điều chỉnh cho màn hình cỡ nhỏ */
+@media (max-width: 768px) {
+    .main-page__view {
+        padding: 15px; /* Giảm padding cho kích thước nhỏ hơn */
+        margin: 15px; /* Giảm margin cho kích thước nhỏ hơn */
+        min-width: auto; /* Xóa min-width để phù hợp với màn hình nhỏ hơn */
+        min-height: auto; /* Xóa min-height để phù hợp với màn hình nhỏ hơn */
+    }
+
+    .breadcrumb {
+        font-size: 10px; /* Giảm kích thước font cho breadcrumb */
+        margin: 15px 0; /* Điều chỉnh margin cho breadcrumb */
+    }
+
+    .pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-display {
+        width: 100%; /* Đảm bảo chiều rộng 100% cho nội dung thanh toán */
+        margin-left: 0; /* Xóa margin bên trái */
+    }
+
+    .pay-display__normal-text a {
+        display: block;
+        text-align: right;
+        margin-top: 10px; /* Tăng khoảng cách giữa các link */
+    }
+
+    .pay-new .pay-new__container .pay-new__blocks-bottom .pay-mnd .pay-mnd__display .pay-display__window {
+        padding: 0; /* Xóa padding để tiết kiệm không gian */
+    }
+
+    /* Ẩn và hiển thị các phần tử phù hợp */
+    .pay-display__window {
+        display: none;
+    }
+
+    .pay-display__window.visible {
+        display: block;
+    }
+}
